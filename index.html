@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
@@ -10,40 +10,28 @@
 
  <link rel='stylesheet' href='Css/estilos.css'>
 </head>
-<body>
+  <body>
 
-  <main class='hero'>
-    <section class='card container'>
-      
-      <div class='card__profile'>
-        <img src='assets/images/avatar-jessica.jpeg' class='card__icon'>
-        <h1 class='card__name'>Jessica Randall</h1>
-        <p class='card__country'>London, United Kingdom</p>
-        <p class='card__paragraph'>"Front-end developer and avid reader."</p>
-      </div>
-      
-      <div class='card__socials'>
-        <a class='card__media' href='#'>GitHub</a>
-        <a class='card__media' href='#'>Frontend Mentor</a>
-        <a class='card__media' href='#'>LinkedIn</a>
-        <a class='card__media' href='#'>Twitter</a>
-        <a class='card__media' href='#'>Instagram</a>
-      </div>
+    <main class='hero'>
+      <article class='card container'>
+        <header class='card__profile'>
+          <img src='assets/images/avatar-jessica.jpeg' class='card__icon'>
+          <h1 class='card__name'>Jessica Randall</h1>
+          <p class='card__paragraph card__paragraph--highlight'>London, United Kingdom</p>
+          <p class='card__paragraph card__paragraph--work'>"Front-end developer and avid reader."</p>
+        </header>
+        
+        <section class='card__section'>
+          <ul class='card__ul'>
+            <li class='card__li'><a class='card__media' href='#'>GitHub</a></li>
+            <li class='card__li'><a class='card__media' href='#'>Frontend Mentor</a></li>
+            <li class='card__li'><a class='card__media' href='#'>LinkedIn</a></li>
+            <li class='card__li'><a class='card__media' href='#'>Twitter</a></li>
+            <li class='card__li'><a class='card__media' href='#'>Instagram</a></li>
+          </ul>
+        </section>
+      </article>
+    </main>
     
-    </section>
-  </main>
-
-<!--
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
- -->
-</body>
+  </body>
 </html>
