@@ -90,4 +90,6 @@ body{
 	font-weight: 700;
 }
 
-.card__media:hover {outline: 2px solid var(--Green);}
+.card__media:hover {
+	background-color: var(--Green);
+	color: var(--Off-Black);}
